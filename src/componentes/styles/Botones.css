@@ -11,6 +11,7 @@ button {
     border: 2px solid #0099CC;
     border-radius: 6px;
     border: none;
+    justify-content: center;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -24,19 +25,31 @@ button {
 }
 
 nav ul{
-    margin-left: 550px;
+    margin-left: 540px;
     margin-bottom: -20px;
     margin-top: -20px;
+    justify-content: center;
+
 }
 
 .btn1 {
+    justify-content: center;
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
 }
 
 .btn2 {
+    justify-content: center;
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
+}
+
+@media  only screen and (max-width: 800px ) {
+ 
+    nav ul {
+        justify-content: center;
+    }
+    
 }
